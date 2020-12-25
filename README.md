@@ -2,21 +2,21 @@
     <a href="https://github.com/yii-extension" target="_blank">
         <img src="https://lh3.googleusercontent.com/ehSTPnXqrkk0M3U-UPCjC0fty9K6lgykK2WOUA2nUHp8gIkRjeTN8z8SABlkvcvR-9PIrboxIvPGujPgWebLQeHHgX7yLUoxFSduiZrTog6WoZLiAvqcTR1QTPVRmns2tYjACpp7EQ=w2400" height="100px">
     </a>
-    <h1 align="center">Template for Yii Packages</h1>
+    <h1 align="center">Parameter settings for Yii.</h1>
     <br>
 </p>
 
-[![Total Downloads](https://poser.pugx.org/yii-extension/template/downloads.png)](https://packagist.org/packages/yii-extension/template)
-[![Build Status](https://github.com/yii-extension/template/workflows/build/badge.svg)](https://github.com/yii-extension/template/actions?query=workflow%3Abuild)
-[![codecov](https://codecov.io/gh/yii-extension/template/branch/main/graph/badge.svg?token=KB6T5KMGED)](https://codecov.io/gh/yii-extension/template)
-[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https://badge-api.stryker-mutator.io/github.com/yii-extension/template/master)](https://dashboard.stryker-mutator.io/reports/github.com/yii-extension/template/master)
-[![static analysis](https://github.com/yii-extension/template/workflows/static%20analysis/badge.svg)](https://github.com/yii-extension/template/actions?query=workflow%3A%22static+analysis%22)
+[![Total Downloads](https://poser.pugx.org/yii-extension/parameter-service/downloads.png)](https://packagist.org/packages/yii-extension/parameter-service)
+[![Build Status](https://github.com/yii-extension/parameter-service/workflows/build/badge.svg)](https://github.com/yii-extension/parameter-service/actions?query=workflow%3Abuild)
+[![codecov](https://codecov.io/gh/yii-extension/parameter-service/branch/main/graph/badge.svg?token=KB6T5KMGED)](https://codecov.io/gh/yii-extension/parameter-service)
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https://badge-api.stryker-mutator.io/github.com/yii-extension/parameter-service/master)](https://dashboard.stryker-mutator.io/reports/github.com/yii-extension/parameter-service/master)
+[![static analysis](https://github.com/yii-extension/parameter-service/workflows/static%20analysis/badge.svg)](https://github.com/yii-extension/parameter-service/actions?query=workflow%3A%22static+analysis%22)
 
 
 ## Installation
 
 ```shell
-composer require <vendor/your-packages>
+composer require yii-extension/parameter-service
 ```
 
 ### Unit testing
@@ -37,15 +37,15 @@ The package tests are checked with [Infection](https://infection.github.io/) mut
 
 ### Static analysis
 
-The code is statically analyzed with [Phan](https://github.com/phan/phan/wiki). To run static analysis:
+The code is statically analyzed with [Psalm](https://psalm.dev/). To run static analysis:
 
 ```shell
-./vendor/bin/phan
+./vendor/bin/psalm
 ```
 
 ### License
 
-The Template for Yii Packages is free software. It is released under the terms of the BSD License.
+The parameter-service for Yii Packages is free software. It is released under the terms of the BSD License.
 Please see [`LICENSE`](./LICENSE.md) for more information.
 
 Maintained by [Yii Extension](https://github.com/yii-extension).

@@ -1,15 +1,18 @@
 {
-    "name": "yii-extension/template",
+    "name": "yii-extension/parameter-service",
     "type": "library",
-    "description": "_____",
+    "description": "Parameter settings for Yii.",
     "keywords": [
-        "_____"
+        "yii3",
+        "parameters",
+        "settings"
     ],
     "license": "BSD-3-Clause",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0",
+        "yiisoft/arrays": "^3.0@dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
@@ -18,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Template\\": "src"
+            "Yii\\Extension\\Service\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Template\\Tests\\": "tests"
+            "Yii\\Extension\\Service\\Tests\\": "tests"
         }
     },
     "extra": {

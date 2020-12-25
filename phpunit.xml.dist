@@ -21,7 +21,7 @@
   </coverage>
 
   <testsuites>
-    <testsuite name="Template">
+    <testsuite name="Parameter-Service">
       <directory>./tests</directory>
     </testsuite>
   </testsuites>
