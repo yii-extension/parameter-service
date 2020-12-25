@@ -11,8 +11,8 @@ final class ParameterTest extends TestCase
 {
     public function testExecute(): void
     {
-        $parameter = new Parameter(['test' => 'testMe']);
+        $parameter = new Parameter(['app' => ['test' => 'testMe']]);
 
-        $this->assertEquals('testMe', $parameter->get('test'));
+        $this->assertEquals('testMe', $parameter->get('app.test'));
     }
 }

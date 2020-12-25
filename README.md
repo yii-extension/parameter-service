@@ -8,7 +8,7 @@
 
 [![Total Downloads](https://poser.pugx.org/yii-extension/parameter-service/downloads.png)](https://packagist.org/packages/yii-extension/parameter-service)
 [![Build Status](https://github.com/yii-extension/parameter-service/workflows/build/badge.svg)](https://github.com/yii-extension/parameter-service/actions?query=workflow%3Abuild)
-[![codecov](https://codecov.io/gh/yii-extension/parameter-service/branch/main/graph/badge.svg?token=KB6T5KMGED)](https://codecov.io/gh/yii-extension/parameter-service)
+[![codecov](https://codecov.io/gh/yii-extension/parameter-service/branch/master/graph/badge.svg?token=B9AUC48V2M)](https://codecov.io/gh/yii-extension/parameter-service)
 [![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https://badge-api.stryker-mutator.io/github.com/yii-extension/parameter-service/master)](https://dashboard.stryker-mutator.io/reports/github.com/yii-extension/parameter-service/master)
 [![static analysis](https://github.com/yii-extension/parameter-service/workflows/static%20analysis/badge.svg)](https://github.com/yii-extension/parameter-service/actions?query=workflow%3A%22static+analysis%22)
 
@@ -17,6 +17,14 @@
 
 ```shell
 composer require yii-extension/parameter-service
+```
+
+## Usages:
+You can inject parameter-service into the controller or action, and automatically all dependencies are resolved by autowired in di-container.
+
+```php
+$parameter = new Parameter(['app' => ['name' => 'Demo application.']]);
+$name = $parameter->get('app.name');
 ```
 
 ### Unit testing
