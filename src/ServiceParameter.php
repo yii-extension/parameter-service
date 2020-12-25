@@ -28,7 +28,7 @@ use Yiisoft\Arrays\ArrayHelper;
  * }
  * ```
  */
-final class Parameter
+final class ServiceParameter
 {
     private array $parameters;
 
